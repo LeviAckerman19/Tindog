@@ -1,0 +1,165 @@
+body{
+  font-family: "Montserrat";
+}
+#title{
+  background-color: #ff4c68;
+  color: white;
+}
+h1
+{font-weight:bold;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+  font-size: 3.15rem;
+}
+h2
+{
+  font-family: "Raleway", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+
+
+}
+h3
+{
+  font-family: "Montserrat";
+font-weight:bold;
+font-size: 1.4rem;
+
+}
+p{
+  color: #8f8f8f;
+}
+.container-fluid
+{
+  padding: 3% 15% 7% 15%;
+}
+/* navigation bar */
+.navbar
+{
+   padding: 0 0 4.5rem; /* top, left-right, bottom  */
+}
+.navbar-brand
+{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight:500;
+}
+.nav-item
+{
+   padding: 0 18px; /*top-bottom,left-right */
+}
+.nav-link
+{
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: lighter;
+}
+/* Download Buttons */
+/* Make your own class for button instead of using class made by bootstrap(btn) */
+.download-button
+{
+  margin: 5% 3% 5% 0 ;
+}
+/* title image */
+.title-image
+{
+  width: 60%;
+  /*by default every element has z index 0*/
+  position: absolute;
+  right:30%;
+}
+/* rotation */
+.rotate
+{
+  transform: rotate(25deg);
+}
+#features
+{
+  padding: 10% 15%;
+  background-color: #fff;
+  position: relative;
+  /* z-index:1; */     /*positioned elements if they are mentioned later then they do not require z index */
+}
+.feature-box
+{
+  text-align: center;
+  padding: 5%;
+}
+.icon
+{
+  color: #ef8172;
+  padding-bottom: 1rem;
+
+}
+.icon:hover
+{
+  color: #ff4c68;
+}
+/* testimonial */
+#testimonials
+{
+
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff; /*white*/
+}
+.testimonial-img
+{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press
+{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo
+{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.carousel-item
+{
+padding: 10% 15%;
+}
+/* for slide show we will use caraosel of bootstrap(use with controls one)  */
+#pricing
+{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-column
+{
+  padding: 3% 2%;
+}
+@media (max-width: 1048px)     /****************MEDIA QUERY************************/
+{
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+  #title
+  {
+    text-align: center;
+  }
+}
+#cta
+{
+    padding: 7% 15%;
+    text-align: center;
+    background-color:#ff4c68;
+    color: white;
+
+}
+#footer
+{
+  text-align: center;
+  padding: 7% 15%;
+  /* font-size:  */
+}
+.social-icon
+{
+  margin: 20px 10px;
+}
